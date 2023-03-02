@@ -3,6 +3,10 @@
     <title>Barb's Recipes</title>
 </head>
 <style>
+    body {
+        background: url(https://user-images.githubusercontent.com/85071007/222539351-272d6727-8dd3-4e8f-b5e3-428baa136c88.jpg) no-repeat;
+        background-size: cover;
+    }
     .main {
         display: flex;
         flex-direction: column;
