@@ -1,3 +1,7 @@
+Copy this string. Fill it out. And paste it at the top of getRecipes.js
+```js
+json += '{"name":"name","description":"description","type":"type","ingredients":"ingredients","measurements":"measurements","instructions":"instructions"},'
+```
 
 ![noimageyet](https://user-images.githubusercontent.com/85071007/222539336-eda689ce-ce76-499d-ade8-843270058995.png)
 ![waltonarmory](https://user-images.githubusercontent.com/85071007/222539342-8292c067-00d6-43a1-9ab4-40abab4d5f5c.jpg)
