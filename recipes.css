@@ -1,0 +1,95 @@
+body {
+    background: url(https://user-images.githubusercontent.com/85071007/222539358-ba5ca6e6-6320-4151-8929-e7ca79d68ebd.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    width: 60%;
+    min-width: 30rem;
+    color: black;
+}
+
+.nav-div {
+    width: 100%;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.nav-item {
+    float: left;
+}
+
+.nav-item a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 1s;
+    color: black;
+}
+
+.nav-item a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #000000;
+}
+
+#recipe  {
+    padding: 2px 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#recipe img {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#recipe div {
+    transition: 0.3s;
+    background-color: #000000d2;
+    margin: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+#recipe div div {
+    transition: 0.3s;
+    background: none;
+    backdrop-filter: none;
+    border-radius: none;
+}
+
+#recipe div:hover {
+    background-color: #000000;
+}
+
+#recipe div div:hover {
+    transition: 0.3s;
+    background: none;
+}
